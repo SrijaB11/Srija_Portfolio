@@ -1,0 +1,58 @@
+.project-img{
+    width:250px;
+    height:250px;
+    border: 2px solid purple;
+    margin-top: 60px;
+    margin-left: 10PX;
+    margin-right: 10PX;
+    
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+}
+.project-card a{
+    text-align: center;
+    margin: 8px ;
+    font-size: 22px;
+}
+.projects{
+    display: flex;
+    gap:30px;
+}
+.portfolio-project{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.portfolio-project h1{
+    text-align: center;
+    width:70%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media(max-width:768px){
+    .portfolio-project{
+        
+        align-items: start;
+        
+    }
+    .portfolio-project h1{
+        text-align: start;
+        margin-left: 60px;
+    }
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+       
+        justify-content: center;
+    }
+    .portfolio-project h1{
+   
+    font-size: 30px;
+    }  
+
+}

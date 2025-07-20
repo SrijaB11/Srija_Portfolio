@@ -1,0 +1,98 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Outfit:wght@100..900&display=swap');*/
+ 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+
+.profile-image{
+    height:380px;
+    width:280px;
+ 
+}
+
+.about-me{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    gap:80px;
+    margin:180px 170px;
+}
+.about-title{
+    position:relative;
+}
+.about-title h1{
+    padding:0px 30px;
+    font-size:50px;
+    font-weight: 600;
+
+}
+.about-section{
+    display:flex;
+    gap:80px;
+}
+.about-right{
+    display:flex;
+    flex-direction:column;
+    gap:80px;
+
+}
+.about-para{
+    display:flex;
+    flex-direction:column;
+    letter-spacing: 1px;
+    font-weight:400;
+    font-size:28px;
+}
+.about-skills{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.about-skill{
+    display:flex;
+    gap:50px;
+    align-items:center;
+    transition:0.3s;
+}
+.about-skill p{
+    min-width:150px;
+    font-size:18px;
+    font-weight:500;
+
+}
+.about-skill hr{
+    outline:none;
+    border:none;
+    width:50%;
+    height:8px;
+    border-radius:50px;
+    background: linear-gradient(264deg,pink,purple);
+}
+.about-skill:hover{
+    transform:scale(1.05);
+    transition:0.3s
+}
+
+@media(max-width:768px){
+    .about-me{
+        gap:80px;
+        margin:50px 70px;
+        align-items:start;
+    }
+    .about-title h1{
+        font-size:30px;
+        padding:0;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-para{
+        font-size:22px;
+        line-height: 32px;
+    }
+    
+}
