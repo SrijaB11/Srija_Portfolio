@@ -1,58 +1,78 @@
-.project-img{
-    width:250px;
-    height:250px;
-    border: 2px solid purple;
-    margin-top: 60px;
-    margin-left: 10PX;
-    margin-right: 10PX;
-    
+.project-img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid purple;
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.project-card{
-    display: flex;
-    flex-direction: column;
+.project-card {
+  display: flex;
+  flex-direction: column;
 }
-.project-card a{
-    text-align: center;
-    margin: 8px ;
-    font-size: 22px;
+.project-card a {
+  text-align: center;
+  margin: 8px;
+  font-size: 22px;
 }
-.projects{
-    display: flex;
-    gap:30px;
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 8% 0%;
 }
-.portfolio-project{
-    display: flex;
+.portfolio-project {
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+ 
+  
+}
+
+.portfolio-project h1 {
+  text-align: center;
+
+  font-size: 50px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .portfolio-project {
+     margin-bottom: 260px;
+    width: 150%;
     align-items: center;
-    flex-direction: column;
-    
-}
-
-.portfolio-project h1{
-    text-align: center;
-    width:70%;
-    font-size: 50px;
-    font-weight: 600;
-}
-
-@media(max-width:768px){
-    .portfolio-project{
-        
-        align-items: start;
-        
-    }
-    .portfolio-project h1{
-        text-align: start;
-        margin-left: 60px;
-    }
-    .projects{
-        display: flex;
-        flex-wrap: wrap;
-       
-        justify-content: center;
-    }
-    .portfolio-project h1{
    
+  }
+  .portfolio-project h1 {
+    text-align: start;
+    margin-left: 60px;
     font-size: 30px;
-    }  
+  }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
 
+    justify-content: center;
+  }
+  
+}
+@media(max-width:450px){
+.portfolio-project {
+    width: 340%;
+    align-items: center;
+    
+  }
+  .portfolio-project h1 {
+    text-align: start;
+    margin-left: 60px;
+    font-size: 30px;
+  }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
 }

@@ -33,15 +33,15 @@ const Contact = () => {
 
     
         <div id="contacts" className="contact">
-            <div className="contact-title">
+           
                 <h1>Get in touch</h1>
 
-            </div>
+            
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's talk</h1>
                     <p>I’m excited to start my career in frontend development and contribute to impactful projects. If you’re looking for a passionate developer eager to learn and grow, let’s connect!</p>
-                    <div className="contactdetails">
+                    <div className="contact-details">
                         <div className="contact-detail">
                         <IoIosMail /><p>boddusrija11@gmail.com</p>
                         </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                     <label htmlFor="">Your Email</label>
                     <input type="email" placeholder="Enter Your Email" name="email"/>
                     <label htmlFor="" >Write your message here</label>
-                    <textarea name="message" rows="4" placeholder="Enter your message"></textarea>
+                    <textarea name="message" rows="2"  placeholder="Enter your message"></textarea>
                     <button type="submit" className="contact-submit">Submit now</button>
                 </form>
             </div>

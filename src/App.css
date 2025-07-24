@@ -6,6 +6,15 @@
 }
 
 .app.dark {
+ 
   background-color: #121212;
   color: #ffffff;
 } 
+@media(max-width:450px){
+  .app.dark{
+   
+    background-color: #121212;
+  color: #ffffff;
+  }
+}
+

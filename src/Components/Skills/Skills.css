@@ -1,21 +1,31 @@
 .skills{
-    display:flex;
-    flex-direction:column;
-    
+     display:flex;
+    flex-direction: column;
     justify-content: center;
-    gap:80px;
-    margin:80px 170px;
+  
+   height:620px;
+  
+   
+  
 }
-h1{
+.skills h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    
 }
 
 
 .about-skills{
     display:flex;
     flex-direction: column;
-    gap:20px;
+   
+    justify-content: center;
+  margin: 0px 140px;
+    gap:30px;
+   
+    
     
 }
 .about-skill{
@@ -47,11 +57,13 @@ h1{
     
 
 .skills{
+    width:150%;
     display: flex;
     flex-direction: column;
-    
-    gap:80px;
-    margin:70px 270px;
+    justify-content: center;
+    align-items: center;
+   
+   
    
 }
 .skills h1{
@@ -80,13 +92,24 @@ h1{
     width: 100%;
    
 }
-.skills{
-    align-items: start;
-    margin: 60px ;
-}
 
-.skills h1{
-    font-size: 30px;
+
+
+}
+@media(max-width:450px){
+    .skills{
+        width:340%;
+    }
+    .about-skills{
+    display:flex;
+    flex-direction: column;
+   
+    justify-content: center;
+ 
+   align-items: center;
+   
+    
+    
 }
 
 }
