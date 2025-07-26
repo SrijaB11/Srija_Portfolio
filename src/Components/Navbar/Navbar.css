@@ -62,7 +62,8 @@
 @media(max-width:768px) {
     .navbar {
 
-       
+       width:100%;
+       background-color: #864a75;
     }
 
     .nav-mob-open {
